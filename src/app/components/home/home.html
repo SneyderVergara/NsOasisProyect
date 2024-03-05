@@ -1,0 +1,20 @@
+<ActionBar>
+  <Label text="OASIS"></Label>
+</ActionBar>
+
+<DockLayout stretchLastChild="true" padding="10">
+  <Label text="" dock="left" width="40" ></Label>
+  <Label text="" dock="top" height="40"></Label>
+  <Label text="" dock="right" width="40"></Label>
+  <Label text="" dock="bottom" height="40"></Label>
+  <StackLayout backgroundColor="#262626">
+    <Image src="~/app/images/logoOasisBlanco.png"></Image>
+    <Label class="texto_centrado" text="¡Bienvenidos a Oasis!" height="100" backgroundColor="#aa46fc"></Label>
+    <Button text="Login" [nsRouterLink]="['/login']" pageTransition="slide" clearHistory="true"></Button>
+    <Button text="Reservas" [nsRouterLink]="['/reservas']" pageTransition="slide" clearHistory="true"></Button>
+    <Button text="Eventos" [nsRouterLink]="['/eventos']" pageTransition="slide" clearHistory="true"></Button>
+    <Button text="Productos" [nsRouterLink]="['/tienda']" pageTransition="slide" clearHistory="true"></Button>
+    <Button text="Salir" (tap)="onExit()"></Button>
+    
+  </StackLayout>
+</DockLayout>

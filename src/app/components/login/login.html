@@ -1,0 +1,21 @@
+<ActionBar>
+    <Label text="Login"></Label>
+    <NavigationButton text="Go back" android.systemIcon="ic_menu_back" (tap)="onTap()" />
+</ActionBar>
+
+<DockLayout stretchLastChild="true" padding="10">
+    <Label text="" dock="left" width="40"></Label>
+    <Label text="" dock="top" height="40"></Label>
+    <Label text="" dock="right" width="40"></Label>
+    <Label text="" dock="bottom" height="40"></Label>
+    <StackLayout backgroundColor="black">
+        <Label text='Bienvenido a Oasis:'></Label>
+        <StackLayout margin="30"></StackLayout>
+        <TextField class="input">Email</TextField>
+        <StackLayout margin="30"></StackLayout>
+        <TextField class="input">Password</TextField>
+        <StackLayout margin="30"></StackLayout>
+
+        <Button text="Regresar..." [nsRouterLink]="['/home']" pageTransition="slide" clearHistory="true"></Button>
+    </StackLayout>
+</DockLayout>

@@ -1,0 +1,77 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.texto_centrado {
+    text-align: center;
+    font-size: 16px;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+}
+
+.titul_big {
+    font-size: 24;
+    color: #4f4f4f;
+    horizontal-align: center;
+    font-weight: normal;
+}
+
+.product-container {
+    padding: 15;
+}
+
+.product-item {
+    margin-bottom: 20;
+}
+
+.product-details {
+    margin-top: 10;
+}
+
+.imagen_servicio {
+    width: 100;
+    height: auto;
+}
+
+.description-and-button {
+    padding-left: 10;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    width: 280px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.quantity-label {
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.btn-2 {
+    color: white;
+    font-size: 12px;
+    height: 80px; /* Eliminamos el ancho fijo */
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+    
+}

@@ -1,0 +1,11 @@
+<ActionBar>
+    <Label text="Tienda Virtual"></Label>
+    <NavigationButton text="Go back" android.systemIcon="ic_input_add" (tap)="onTap()" />
+</ActionBar>
+
+
+<StackLayout backgroundColor="#DAF7A6">
+    <Label textAlignment="center" text="&#xf1a0;  Productos" class="fab titul_big"></Label>
+    <Button text="Regresar..." [nsRouterLink]="['/home']" pageTransition="slideRight" clearHistory="true"></Button>
+
+</StackLayout>
